@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>POKEMON LET'S GO</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+    	.dropdown-submenu {
+		  position: relative;
+		}
+
+		.dropdown-submenu .dropdown-menu {
+		  top: 0;
+		  left: 100%;
+		  margin-top: -10px;
+		}
+    </style>
+</head>
+
+<body>
+	<header class="row">
+			<div class="container-fluid">
+				<nav class="navbar navbar-default navMenuAll">
+					<div class="navbar-header">
+						<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobileNav">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						<a href="" class="navbar-brand navMenuLogo">
+								<span>
+									Dinosaur
+								</span>
+						</a>
+					</div>
+					<div class="collapse navbar-collapse " id="mobileNav">
+						<ul class="nav navbar-nav navMenu11">
+							<li class="active">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">About</a>
+								<ul class="dropdown-menu navWidth">
+									<li><a href="">1</a></li>
+									<li><a href="">2</a></li>
+									<li><a href="">3</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">WeTalk</a>
+							</li>
+							<li class="aa">
+								<a href="" class="dropdown-toggle" data-toggle="dropdown">About</a>
+								<ul class="dropdown-menu navWidth1">
+									<li class="dropdown-submenu">
+										<a href="" class="test" >About</a>
+										<ul class="dropdown-menu navWidth">
+											<li><a href="">1</a></li>
+											<li><a href="">2</a></li>
+											<li><a href="">3</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu">
+										<a href="" class="test" >About1</a>
+										<ul class="dropdown-menu navWidth">
+											<li><a href="">1</a></li>
+											<li><a href="">2</a></li>
+											<li><a href="">3</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu">
+										<a href="" class="test" >About2</a>
+										<ul class="dropdown-menu navWidth">
+											<li><a href="">1</a></li>
+											<li><a href="">2</a></li>
+											<li><a href="">3</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu">
+										<a href="" class="test" >About3</a>
+										<ul class="dropdown-menu navWidth">
+											<li><a href="">1</a></li>
+											<li><a href="">2</a></li>
+											<li><a href="">3</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+
+						<ul class="nav navbar-nav navbar-right navMenu12">
+							<li class="">
+								<a href="#">CreatNew</a>
+							</li>
+							<li>
+								<a href="#">login</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+	<div class="container">
+		<h1 class="hh">hover</h1>
+		<p class="pp">123</p>
+		<button class="123" type="button">AAAA</button>
+
+	</div>
+
+    <!-- JS引入 -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/navJs.js"></script>
+     <script>
+	$(document).ready(function(){
+		var x = 0;
+		$('.123').click(function{
+			if (x==0) {
+				$('.pp').hide();
+				x=1;
+			}else{
+				$('.pp').show();
+				x=0;
+			}
+		});
+		$('.dropdown-submenu a.test').on("click", function(e){
+		    $(this).next('ul').toggle();		    
+		    e.stopPropagation();
+		    e.preventDefault();
+		});
+	});
+	</script>
+</body>
+</html>

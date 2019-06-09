@@ -1,0 +1,148 @@
+/*dataShare Nav*/
+.dataShare_Box1,.dataShare_Box2{
+	font-family: inherit;
+}
+#dataShare_box{
+	/*height: 1700px;*/
+	height:100%;
+}
+
+.dataShare_Box1 ul li .h3Btn{
+	border:none;
+	background: none;
+	font-size: 30px;
+	margin-top: 15px;
+	width: 100%;
+	text-align: left;
+}
+.dataShare_Box1 ul li ul{
+	list-style: none;
+}
+.dataShare_Box1 ul li ul li{
+	display: inline;
+	text-align: center;
+}
+
+.dataShare_Box1 ul li ul li a{
+	font-size: 32px;
+	text-decoration: none;
+	color: #555;
+	width: 100%;
+}
+
+.dataShare_Box1 ul li ul.navChange{
+	display: block;
+}
+/*dataShare Nav  End*/
+/*dataShare Content*/
+
+.dataShare_Box2 h1{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.dataShare_Box2 p{
+	padding:5px 25px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+.dataShare_Box2 .contentTitle{
+	margin-bottom: 50px;
+}
+.dataShare_Box2 .contentIframe iframe{
+	width: 100%;
+}
+
+.dataShare_Box2 .navChangeStyle .box2{
+	position: absolute;
+
+}
+.dataShare_Box2 .navChangeStyle{
+	visibility: hidden;
+}
+.dataShare_Box2 .navChangeStyle #movieBox1{
+	visibility: visible;
+}
+
+
+.dataShare_Box2 #travelBox p:nth-of-type(1){
+	font-size: 24px;
+}
+/*dataShare Content  End*/
+/*footer*/
+
+/*footer End*/
+@media screen and (max-width: 767px) {
+	/*需要寫javascript給h3 a元素href屬性*/
+	.dataShare_Box1 ul li{
+		width: 100%;
+	}
+	.dataShare_Box1 ul li ul{
+		display: none;
+	}
+	.dataShare_Box1 ul li:nth-child(1) ul li{
+		padding-left: 40px;
+	}
+	.dataShare_Box1 ul li:nth-child(2) ul li{
+		padding-left: 30px;
+	}
+	.dataShare_Box1 ul li:nth-child(3) ul li{
+		padding-left: 20px;
+	}
+	.dataShare_Box1 ul li:nth-child(4) ul li{
+		padding-left: 40px;
+	}
+}
+@media screen and (min-width: 768px) {
+	/* .dataShare_Box1 ul li ul{
+		padding-left:100px;
+	}
+	.dataShare_Box1 ul li:nth-child(1) ul li{
+		padding-left: 100px;
+	}
+	.dataShare_Box1 ul li:nth-child(2) ul li{
+		padding-left: 30px;
+	}
+	.dataShare_Box1 ul li:nth-child(3) ul li{
+		padding-left: 20px;
+	}
+	.dataShare_Box1 ul li:nth-child(4) ul li{
+		padding-left: 40px;
+	} */
+}
+@media screen and (min-width: 992px) {
+	
+}
+@media screen and (min-width: 1200px) {
+
+	#dataShare_box{
+		height: 1200px;
+		/*height: auto;*/
+	}
+	.dataShare_Box1 ul li .h3Btn{
+		text-align: left;
+		color: black;
+		pointer-events: none;
+		cursor: default;
+	}
+
+	.dataShare_Box1 ul li > a{
+		font-size: 24px;
+		color:#555;
+	}
+	.dataShare_Box1 ul li ul li{
+		width: 50%;
+	}
+	.dataShare_Box1 ul li:nth-child(4) ul li{
+		width: 50%;
+	}
+	.dataShare_Box1 ul li ul li a{
+		text-align: center;
+	}
+	.dataShare_Box1 ul li ul li a:hover{
+		color:#aaa;
+		background: none;
+	}
+}

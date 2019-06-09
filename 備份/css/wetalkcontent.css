@@ -1,0 +1,35 @@
+#navHotBreadcrumb .breadcrumb {
+	text-align: left;
+	background: none;
+	font-size: 1em;
+	margin-bottom: 0;
+	margin-top: 10px;
+	padding-left: 0;
+
+}
+#allHotContent div:nth-child(2) .content{
+	/*border: 1px solid #000;*/
+	background: #fff;
+	padding:0 4%;
+	margin-bottom: 30px;
+	box-shadow: 10px 10px 5px #fff;
+}
+#allHotContent div:nth-child(2) h1{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 3em;
+}
+#allHotContent div:nth-child(2) hr{
+	margin: 20px 0;
+	border-top:1px solid black;
+}
+#allHotContent div:nth-child(2) p{
+	text-align: justify;
+}
+#allHotContent div:nth-child(2) form input{
+	margin:15px 0;
+	width: 100%;
+}
+#allHotContent div:nth-child(3){
+	
+}

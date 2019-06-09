@@ -1,0 +1,49 @@
+#hishory{
+	margin:5px 5px 15px;
+	padding:10px 15px;
+}
+#hishory p{
+	text-align: justify;
+}
+
+
+
+#gridBox{
+	
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+	grid-gap: 10px;
+
+}
+.dinosaur{
+	width: 100%;
+}
+
+.panel-title{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.panel-collapse{
+	padding: 5px 15px;
+}
+
+
+.dinosaur1{
+	
+}
+.dinosaur2{
+	
+}
+.dinosaur3{
+	
+}
+.dinosaur4{
+	
+}
+.dinosaur5{
+	
+}
+.dinosaur6{
+	
+}

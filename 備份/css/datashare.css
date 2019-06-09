@@ -1,0 +1,118 @@
+/*-----相對定位-----*/
+.navChange{
+	position: relative;
+	height: 600px;
+}
+/*-----相對定位 End-----*/
+/*-----絕對定位-----*/
+.navChange .box,.navChange .box .box2{
+    position: absolute;
+    width: 100%;
+}
+/*-----絕對定位 End-----*/
+/*-----預設畫面-----*/
+.navChange #Movie,#Movie #movieBox1,{
+    visibility: visible;
+}
+#Movie #movieBox2{
+	visibility: hidden;
+}
+.navChange #Cartoon,#Cartoon #cartoonBox1,#Cartoon #cartoonBox2{
+    visibility: hidden;
+}
+.navChange #Discovery,#Discovery #discoveryBox1,#Discovery #discoveryBox2{
+    visibility: hidden;
+}
+.navChange #Travel,#Travel #travelBox1,
+#Travel #travelBox2,#Travel #travelBox3,
+#Travel #travelBox4
+{
+    visibility: hidden;
+}
+/*-----預設畫面 End-----*/
+/*-----版面間距-----*/
+.container{
+	margin-top: 50px;
+}
+.navChange .box {
+	margin-top: 50px;
+}
+
+/*-----美工區-----*/
+.container{
+	font-family:  Verdana;
+}
+
+.navChange .box #movieBox .nav{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.boxR li a:hover, .navChange .box #travelBox .nav li a:hover{
+	background: none;
+	color: #fff;
+}
+.boxR li a ,.navChange .box .navChangeStyle .nav li a{
+	font-size: 30px;
+	text-align: center;
+	color: #777;
+	border:none;
+}
+.navChange .box .box2 h1{
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 768px){
+	.navChange .box .navChangeStyle .nav li{
+		width: 50%;
+	}
+	.boxR li{
+		width: 100%;
+	}
+	.navChange .box #travelBox .nav li{
+		width: 50%;
+	}
+}
+@media screen and (min-width: 768px){
+	.navChange .box .navChangeStyle .nav li{
+		width: 50%;
+	}
+	.boxR li,.navChange .box #travelBox .nav li{
+		width: 50%;
+	}
+}
+@media screen and (min-width: 992px){
+	.navChange .box .navChangeStyle .nav li{
+		width: 50%;
+	}
+	.boxR li,.navChange .box #travelBox .nav li{
+		width: 25%;
+	}
+}
+/*-----美工區 End-----*/
+/**/
+.boxR li a:hover, .navChange .box #travelBox .nav li a:hover{
+	animation-delay: 5s;
+	animation: actionMove 2s linear;
+
+}
+/*
+@keyframes actionMove{
+	0%{
+		transform: rotateY(0deg);
+	}
+	40%{
+		transform: rotateY(90deg);
+	}
+	80%{
+		transform: rotateY(180deg);
+	}
+	40%{
+		transform: rotateY(270deg);
+	}
+	100%{
+		transform: rotateY(360deg);
+	}
+}
+*/
+/**/

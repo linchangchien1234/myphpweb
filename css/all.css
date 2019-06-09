@@ -1,0 +1,864 @@
+body {
+    font-family: 'Amarante';
+}
+
+.bodySet {
+    background: linear-gradient(135deg, rgb(171, 146, 106) 8%, white 50%, white);
+    max-width: 1920px;
+
+}
+
+/*左右導覽列*/
+.navTop {
+    position: fixed;
+    z-index: 1;
+    right: 2%;
+    bottom: 25%;
+    display: none;
+}
+
+.navTop a {
+    color: #262626;
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+.navTop a:hover {
+    color: #777;
+}
+
+.navRight1 {
+    position: fixed;
+    z-index: 1;
+    left: 1%;
+    top: 25%;
+}
+
+.navRight2 {
+    position: fixed;
+    z-index: 1;
+    left: 1%;
+    top: 35%;
+}
+
+.navRight {
+    display: none;
+}
+
+.navRight a {
+    display: block;
+    font-size: 36px;
+    color: #262626;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.navRight a:hover {
+    color: #777;
+}
+
+/*左右導覽列  End*/
+/*上方導覽列*/
+header .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand span {
+    font-size: 30px;
+}
+
+.navMenuAll #mobileNav ul li a {
+    font-size: 20px;
+}
+
+
+.navMenu12 li p {
+
+    padding: 15px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+/*旋停顏色*/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #555;
+    background-color: lightskyblue;
+}
+
+/*旋停顏色end*/
+/*上方導覽列 end*/
+/*分隔線*/
+.lineHr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*分隔線 End*/
+/*footer*/
+footer {
+    position: relative;
+    top: 100%;
+}
+
+footer div {
+    position: absolute;
+    bottom: 0px;
+}
+
+footer div>p {
+    font-size: 12px;
+    margin: 2px 10px;
+    padding: 0;
+}
+
+/*footer End*/
+/*錯誤訊息*/
+.error {
+    color: red;
+}
+
+/*錯誤訊息 end*/
+
+/*----------------------------------------------------*/
+
+/*輪播區*/
+.contentSize {
+    max-width: 1280px;
+    max-height: 1080px;
+}
+
+.item img {
+    width: 100%;
+}
+
+/*輪播區  end*/
+/*內容區*/
+/*history*/
+#history {
+    margin-bottom: 20px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+#history h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*history  End*/
+
+/*About */
+#gridBox .panel-collapse {
+    padding: 15px 30px;
+}
+
+#gridBox .panel-heading {
+    background: rgba(171, 146, 106, .7);
+}
+
+#gridBox .panel-heading h1 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-style: bolder;
+}
+
+#gridBox .panel-collapse p {
+    font-size: 16px;
+}
+
+/*About  End*/
+/*內容區   End*/
+
+/*----------------------------------------------------*/
+
+/*Wetlak.php*/
+.hot {
+    margin: 15px;
+}
+
+#navHot {
+    font-size: 1.5em;
+}
+
+#allHot {
+    height: auto;
+}
+
+#allHot table caption {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#allHot table {
+    font-size: 1.5em;
+    border: 1px solid #000;
+    width: 100%;
+}
+
+#allHot table thead th {
+    text-align: center;
+}
+
+#allHot table th {
+    border: 1px solid #000;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #bbb;
+}
+
+/*Wetlak.php  End*/
+/*----------------------------------------------------*/
+/*Wetlakcontent.php  End*/
+#navHotBreadcrumb .breadcrumb {
+    text-align: left;
+    background: none;
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-left: 0;
+
+}
+
+#allHotContent div:nth-child(2) .content {
+    /*border: 1px solid #000;*/
+    background: #fff;
+    padding: 0 4%;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px #fff;
+}
+
+#allHotContent div:nth-child(2) h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#allHotContent div:nth-child(2) hr {
+    margin: 20px 0;
+    border-top: 1px solid black;
+}
+
+#allHotContent div:nth-child(2) p {
+    text-align: justify;
+}
+
+#allHotContent div:nth-child(2) form input {
+    margin: 15px 0;
+    width: 100%;
+}
+
+#allHotContent div:nth-child(3) {}
+
+/*Wetlakcontent.php End  End*/
+/*----------------------------------------------------*/
+/*datashare.php End*/
+
+
+/*內容隱藏做JS效果*/
+#movieBox2,
+#cartoonBox1,
+#cartoonBox2,
+#discoveryBox1,
+#discoveryBox2,
+#travelBox1,
+#travelBox2,
+#travelBox3,
+#travelBox4 {
+    display: none;
+}
+
+
+/*nav按鈕1層css*/
+.dataShare_Box1 ul li .h3Btn {
+    border: none;
+    background: none;
+    font-size: 30px;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+}
+
+/*nav按鈕2層css*/
+.dataShare_Box1 ul li ul li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #555;
+    width: 100%;
+}
+
+/*文字標題CSS*/
+.dataShare_Box2 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*文字內容CSS*/
+.dataShare_Box2 p {
+    padding: 5px 25px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+/*影片與文字間距*/
+.dataShare_Box2 .contentTitle {
+    margin-bottom: 50px;
+}
+
+/*youtube width*/
+.dataShare_Box2 .contentIframe iframe {
+    width: 100%;
+}
+
+/*youtube width  End*/
+
+/*travelBox*/
+.dataShare_Box2 #travelBox p:nth-of-type(1) {
+    font-size: 1.5em;
+}
+
+#travelBox .box2 img {
+    width: 100%;
+}
+
+#travelBox .box2 #dataSouse span a {
+    font-size: 8px;
+}
+
+/*travelBox  End*/
+
+/*datashare.php End*/
+
+/*----------------------------------------------------*/
+/*lognin.php*/
+/*rootlognin.php*/
+/*root權限提示*/
+#login {
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login #lognFrom {
+    position: relative;
+}
+
+#login form #formH span {
+    font-size: 50px;
+    text-shadow: 5px 5px 2px #777;
+}
+
+/*#login form h3{
+	margin: 20px 0;
+	text-shadow: 10px 10px 2px #777;
+}*/
+#login .textBox {
+    display: block;
+}
+
+#login .textBox label {
+    width: 100px;
+}
+
+#login .textBox>div:after {
+    color: red;
+}
+
+#login .textBox input {
+    margin-bottom: 15px;
+}
+
+#login #lognFrom .lognBtn input:nth-of-type(1) {
+    position: absolute;
+    right: 25%;
+}
+
+#login #lognFrom .lognBtn a {
+    position: absolute;
+    right: 0;
+}
+
+#login #lognFrom .lognBtn input:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+}
+
+/*lognin.php End*/
+/*rootlognin.php End*/
+/*creat.php*/
+#login {
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login #creatForm {
+    position: relative;
+    width: 500px;
+    padding: 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 2px #777;
+}
+
+#login #creatForm #formH span {
+    font-size: 50px;
+    text-shadow: 5px 5px 2px #777;
+}
+
+#login #creatForm>p {
+    font-size: 1.5em;
+}
+
+#login #creatForm p:nth-of-type(1) input,
+#login #creatForm p:nth-of-type(2) input,
+#login #creatForm p:nth-of-type(3) input {
+    width: 100%;
+}
+
+#login #creatForm p:nth-of-type(5) #checkBox {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+
+#login #creatForm p:nth-of-type(5) div {
+    width: 33.33%;
+}
+
+#login #creatForm p:last-of-type input {
+    background: none;
+    border: none;
+    width: 100px;
+    height: 50px;
+
+}
+
+#login #creatForm p:last-of-type input:hover {
+    font-size: 1.8em;
+    text-shadow: 5px -5px 2px #777;
+}
+
+/*creat.php End*/
+/*----------------------------------------------------*/
+/*lognsucess.php*/
+#login #lognsucess {
+    position: relative;
+    width: 500px;
+    padding: 30px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 2px #777;
+}
+
+/*lognsucess.php End*/
+/*----------------------------------------------------*/
+
+/*rootmenu.php */
+
+#rootMenu {
+    height: 800px;
+    position: relative;
+}
+
+#rootMenu h3 span {
+    color: red;
+}
+
+#rootMenu h1 {
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+#rootMenu div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+#rootMenu div a {
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 15px;
+    font-size: 2em;
+}
+
+/*rootmenu.php End*/
+/*----------------------------------------------------*/
+/*rootPost End*/
+
+#rootPost {
+    height: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#rootPost h3 span {
+    color: red;
+}
+
+#rootPost h1 {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#rootPost form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+#rootPost form p:nth-child(1) label {
+    margin-right: 5px;
+}
+
+#rootPost form p:nth-child(2) label {
+    width: 100%;
+}
+
+#rootPost form p:nth-child(2) textarea {
+    width: 300px;
+    height: 100px;
+
+}
+
+/*rootPost End*/
+/*----------------------------------------------------*/
+
+/*rootdelbox.php*/
+/*rootdeluser.php*/
+#rootDel {
+    height: 100%;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+#rootDel h3 span {
+    color: red;
+}
+
+#rootDel table {
+    border: 1px solid #000;
+    width: 100%;
+
+}
+
+#rootDel table tr td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+#rootDel table tr td:nth-child(1) input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+
+#rootDel table tr td:nth-child(1) {
+    width: 1%;
+}
+
+#rootDel table tr td:nth-child(2) {
+    width: 15%;
+}
+
+#rootDel table tr td:nth-child(3) {
+    width: 55%;
+}
+
+#rootDel table tr td:nth-child(4) {
+    width: 5%;
+}
+
+
+/*rootdelbox.php End*/
+/*rootdeluser.php End*/
+/*----------------------------------------------------*/
+
+
+/*手機模板I6-I7大小*/
+@media screen and (max-width: 767px) {
+
+    /*Wetalk.php*/
+    #navHot nav li a {
+        padding: 2px 5px;
+        /*text-decoration: underline #666;*/
+        border-bottom: 5px solid #666;
+        box-shadow: 5px 5px 2px #aaa;
+        width: 70%;
+    }
+
+    #navHot nav ul li {
+        font-size: 1em;
+    }
+
+    #navHot nav ul li {
+        width: 100%;
+    }
+
+    #navHot nav ul li {
+        margin-bottom: 15px;
+    }
+
+    #navHot nav ul li:nth-of-type(2),
+    #navHot nav ul li:nth-of-type(4) {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #allHot table caption {
+        font-size: 1em;
+    }
+
+    #allHot table thead th {
+        font-size: 0.7em;
+    }
+
+    #allHot table tbody th {
+        font-size: 0.5em;
+    }
+
+    #allHot table th:nth-of-type(2) a {
+        text-decoration: underline #666;
+    }
+
+    #allHot table th:nth-of-type(1) {
+        width: 20%;
+    }
+
+    #allHot table th:nth-of-type(2) {
+        width: 40%;
+    }
+
+    #allHot table th:nth-of-type(3) {
+        width: 20%;
+    }
+
+    #allHot table th:nth-of-type(4) {
+        width: 20%;
+    }
+
+    /*Wetalk.php End*/
+
+    /*rootMenu*/
+    /*567*/
+    #rootMenu div a {
+        width: 100px;
+    }
+
+    /*/*rootMenu End*/
+}
+
+/*datashare.php*/
+/*nav按鈕2層css
+.dataShare_Box1 ul li {
+    width: 100%;
+}
+
+.dataShare_Box1 ul li .h3Btn {
+    border: 1px solid #666;
+}
+
+.dataShare_Box1 ul li ul {
+     display: none;
+}
+
+.dataShare_Box1 ul li ul li {
+    padding-left: 20px;
+}
+
+nav按鈕2層css  End*/
+/*datashare.php   End*/
+@media (min-width: 768px) and (max-width: 979px) {
+
+    /*Wetalk.php End*/
+    /* 1000 */
+    #navHot nav li a {
+        padding: 2px 5px;
+        /*text-decoration: underline #666;*/
+        border-bottom: 5px solid #666;
+        box-shadow: 5px 5px 2px #aaa;
+        width: 33.33%;
+    }
+
+    #navHot nav ul li {
+        width: 100%;
+    }
+
+    #navHot nav ul li:nth-of-type(2),
+    #navHot nav ul li:nth-of-type(5) {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navHot nav ul li:nth-of-type(3),
+    #navHot nav ul li:nth-of-type(4) {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /*Wetalk.php End*/
+    /*datashare.php*/
+    .dataShare_Box1 ul li .h3Btn {
+        color: #622262 pointer-events: none;
+        cursor: default;
+
+    }
+
+    .dataShare_Box1 {
+        border-bottom: 3px solid #262626;
+        padding-bottom: 30px;
+
+    }
+
+    .dataShare_Box1 ul li {
+        margin-right: 20px;
+    }
+
+    .dataShare_Box1 ul li button {
+        text-shadow: 0px 0px 5px #666;
+    }
+
+    .dataShare_Box1 ul li ul li {
+        box-shadow: 5px 5px 5px 2px #fff;
+    }
+
+    .nav-tabs {
+        border: none;
+    }
+
+    /*datashare.php   End*/
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    /*左右導覽*/
+    .navTop {
+        display: block;
+    }
+
+    .navRight {
+        display: block;
+    }
+
+    /*左右導覽 End*/
+    /*導覽列nav*/
+    .navMenuLogo {
+        margin-right: 200px;
+    }
+
+    .navMenu11 li {
+        margin-right: 50px;
+    }
+
+    .navMenu12 li {
+        margin-right: 20px;
+
+    }
+
+    /*導覽列nav End*/
+    /*index.php history*/
+    #history p {
+        font-size: 16px;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 50px;
+        -webkit-column-rule: 1px solid #333;
+        text-align: justify;
+
+    }
+
+    /*index.php history End */
+    /*Wetalk.php*/
+    #navHot {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #allHot table caption {
+        font-size: 2em;
+    }
+
+    #allHot table th:nth-of-type(1) {
+        width: 20%;
+    }
+
+    #allHot table th:nth-of-type(2) {
+        width: 50%;
+    }
+
+    #allHot table th:nth-of-type(3) {
+        width: 10%;
+    }
+
+    #allHot table th:nth-of-type(4) {
+        width: 10%;
+    }
+
+    /*Wetalk.php End*/
+    /*datashare.php*/
+    .dataShare_Box1 ul li .h3Btn {
+        text-align: left;
+        color: #622262 pointer-events: none;
+        cursor: default;
+
+    }
+
+    .dataShare_Box1 ul li>a {
+        font-size: 2em;
+        color: #555;
+    }
+
+    .dataShare_Box1 ul li ul li {
+        width: 50%;
+    }
+
+    .dataShare_Box1 ul li ul li a {
+        font-size: 2.5em;
+    }
+
+    .dataShare_Box1 ul li:nth-child(4) ul li {
+        width: 50%;
+    }
+
+    .dataShare_Box1 ul li ul li a {
+        text-align: center;
+    }
+
+    .dataShare_Box1 ul li ul li a:hover {
+        color: #aaa;
+        background: none;
+    }
+
+    /*datashare.php   End*/
+}

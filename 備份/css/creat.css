@@ -1,0 +1,47 @@
+#login{
+	height: 820px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#login form{
+	position: relative;
+	width: 500px;
+	padding: 30px;
+	padding-bottom: 0;
+	box-sizing: border-box;
+	box-shadow: 10px 10px 2px #777;
+}
+#login form #formH span{
+	font-size: 50px;
+	text-shadow:5px 5px 2px #777;
+}
+#login form > p{
+	font-size: 1.5em;
+}
+#login form p:nth-of-type(1) input,
+#login form p:nth-of-type(2) input,
+#login form p:nth-of-type(3) input
+{
+	width: 100%;
+}
+#login form p:nth-of-type(5) #checkBox{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+
+}
+#login form p:nth-of-type(5) div{
+	width: 33.33%;
+}
+#login form p:last-of-type input{
+	background: none;
+	border: none;
+	width: 100px;
+	height: 50px;
+
+}
+#login form p:last-of-type input:hover{
+	font-size: 1.8em;
+	text-shadow: 5px -5px 2px #777;
+}

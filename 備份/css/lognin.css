@@ -1,0 +1,32 @@
+#login{
+	height: 820px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#login form{
+	position: relative;
+}
+#login form #formH span{
+	font-size: 50px;
+	text-shadow:5px 5px 2px #777;
+}
+/*#login form h3{
+	margin: 20px 0;
+	text-shadow: 10px 10px 2px #777;
+}*/
+#login .textBox{
+	display: block;
+}
+#login .textBox input{
+	margin-bottom: 15px;
+}
+#login p input{
+	position: absolute;
+	right: 25%;
+}
+#login p a{
+	position: absolute;
+	right: 0;
+}
+

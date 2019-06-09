@@ -1,0 +1,44 @@
+
+.hot{
+	margin: 15px;
+}
+#navHot{
+	height: 50px;
+	font-size: 1.5em;
+	display: flex;
+	justify-content: center;
+}
+#allHot{
+	height: auto;
+}
+#allHot table{
+	font-size: 1.5em;
+	border: 1px solid #000;
+	width: 100%;
+}
+#allHot table caption{
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+#allHot table thead th{
+	text-align: center;
+}
+#allHot table th{
+	border: 1px solid #000;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+#allHot table th:nth-of-type(1){
+	width: 20%;
+}
+#allHot table th:nth-of-type(2){
+	width: 50%;
+}
+#allHot table th:nth-of-type(3){
+	width: 10%;
+}
+#allHot table th:nth-of-type(4){
+	width: 10%;
+}
